@@ -1,101 +1,174 @@
-<div align=center>
- 
-# 🚀 ZxCDDoS: Release v1.5 - Free DDoS Panel 🚀
+<div align="center">
 
-# Store: https://condi.billgang.store/
+# 🌐 Ping Test Tools
 
 <p>
- <img src="https://img.shields.io/github/stars/hoaan1995/ZxCDDoS?color=%23DF0067&style=for-the-badge"/> &nbsp;
- <img src="https://img.shields.io/github/forks/hoaan1995/ZxCDDoS?color=%239999FF&style=for-the-badge"/> &nbsp;
- <img src="https://img.shields.io/github/license/hoaan1995/ZxCDDoS?color=%23E8E8E8&style=for-the-badge"/> &nbsp;
- 
+ <img src="https://img.shields.io/badge/Network-Testing-00ADD8?style=for-the-badge&logo=network&logoColor=white"/> &nbsp;
+ <img src="https://img.shields.io/badge/Layer4-00599C?style=for-the-badge&logo=c&logoColor=white"/> &nbsp;
+ <img src="https://img.shields.io/badge/Layer7-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/> &nbsp;
+ <img src="https://img.shields.io/badge/Platform-Linux-E8E8E8?style=for-the-badge&logo=linux&logoColor=black"/> &nbsp;
 </p>
 
-> Terminal only accepts ANSI color.<br>
-> Username: admin<br>
-> Password: admin<br>
-<p align="center">  <a href="https://t.me/learneverything9"><img width="160" height="50" src="https://i.imgur.com/N7AK7XY.png"></a></p>
- 
-## Language</br>
+### 🔍 Check your server/network stability & response time
 
- <img src="https://img.shields.io/badge/Python-FFDD00?style=for-the-badge&logo=python&logoColor=blue"/> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/> <img src="https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=perl&logoColor=white"/> <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
- </div>
- 
- ## Logs</br>
- - UPDATE TLS AND HTTP1 METHODS!
- - UPDATE NEW HTTP(s) PROXY!
- 
-## Screenshot
-![lk](https://i.ibb.co/LNkqyPR/bandicam-2022-04-12-22-11-34-101.jpg)
+<p>
+A comprehensive collection of network testing tools for analyzing server performance, latency, and bandwidth handling capacity.
+</p>
 
-# Tree
-* [Read now pls](#README)
-* [Info](#Info)
-* [Setup](#Setup)
-* [Credits](#Credits)
-* [T.O.S](#TOS)
-* [Contact](#Contact)
+---
 
-# README ♥️
-Thank you for using, please help me press a star button, thank you very much.<br>
-One star = continuously updating multiple methods
+<img src="https://img.shields.io/badge/Python-FFDD00?style=for-the-badge&logo=python&logoColor=blue"/> 
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/> 
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/> 
+<img src="https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=perl&logoColor=white"/> 
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
 
-# Info
-- [x] Open Source
-- [x] Powerful
-- [x] Simple
-- [x] Methods for Layer 4 and 7
-- [x] Bypass (Cloudflare, OVH, NFO,...)  
+</div>
 
+## ✨ Features
 
-# Setup
+| Feature | Description |
+|---------|-------------|
+| 🔹 **Layer 7 Testing** | HTTP-RAW, HTTP-SOCKET, HTTP-RAND, HTTP-STORM, OVERFLOW, CRASH, HYPER, TLSFLOOD, HTTP1 |
+| 🔹 **Layer 4 Testing** | UDP, TCP, STD, FLUX, SLOWLORIS, GOD, DESTROY, UDP-BYPASS, NFO-KILLER |
+| 🔹 **Amplification Tests** | OVH-AMP, LDAP, NTP, DNS |
+| 🔹 **Bypass Methods** | Cloudflare, OVH, UAM, DDosGuard, Sucuri, StormWall, PipeGuard, BlazingFast |
+| 🔹 **AMP / Games** | MINECRAFT, SAMP |
+| 🔹 **Auto Installer** | Go auto-installs on non-root systems |
+| 🔹 **Proxy Support** | HTTP, SOCKS4, SOCKS5 proxies included |
+
+## 📦 Installation
+
 ```sh
-Debain, Ubuntu (Ubuntu 20.04 better):
-sudo apt-get install git -y
-sudo apt-get install golang -y
-sudo apt-get install perl -y
-sudo apt-get install python3 -y
-sudo apt-get install python2 -y
-sudo apt-get install python3-pip -y
-curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -;sudo apt -y install nodejs
+# Clone the repository
+git clone https://github.com/Yousuf323215/ping.git
+cd ping
 
-How to use: 
-- Recommended in shell of google, azure,...
-- Using vps with high speed will be stronger
-
-git clone https://github.com/hoaan1995/ZxCDDoS/
-cd ZxCDDoS/
-npm i requests https-proxy-agent crypto-random-string events fs net cloudscraper request hcaptcha-solver randomstring cluster cloudflare-bypasser http http2 crypto tls
+# Install Python dependencies
 pip3 install -r requirements.txt
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-apt-get install ./google-chrome-stable_current_amd64.deb
+
+# Install Node.js dependencies
+npm install
+
+# Set limits
 ulimit -n 999999
-chmod 777 *
+
+# Give execute permissions
+chmod +x *
+
+# Run
 python3 c2.py
 ```
 
-# Credits
+## 🚀 Quick Start
+
+### Interactive Mode
 ```sh
-zxcr9999 (Reworked CnC and added some methods .-.)
-SkyWtkhIsBack (Example Panel and L7 methods <3)
-Empfaked (Layer 7 methods <3)
-HyukIsBack (Layer 7 methods <3)
-im-federal (Layer 4 and AMP methods <3)
-R00tS3C (Layer 4 and AMP methods <3)
-forkyyy (LAYER 7 METHODS <3)
-Leeon123 (SPECIAL METHODS <3)
-TheSpeedX (HTTP, SOCKS5, SOCK4 proxies <3)
+python3 c2.py
 ```
 
-# TOS:
+### Direct Test
 ```sh
-Do not attack government pages (.gov/.gob), educational pages (.edu) or the United States Department of Defense (.mil), 
-the creator is not responsible for the damage caused by the attacks. 
-remember: you are responsible for the attacks since this tool was created for educational purposes
+# Test with GET method (auto-installs Go if missing)
+python3 c2.py https://example.com/
+
+# Test with POST method
+python3 c2.py https://example.com/ POST
 ```
 
-# CONTACT:
-```sh
-Telegram: @zxcr9999
-Discord: zxcr9999#1770
-```
+## 🛠️ Available Tools
+
+<details>
+<summary><b>📋 Layer 7 Methods</b></summary>
+
+| Method | Description |
+|--------|-------------|
+| `crash` | HTTP stress test (GET/POST) |
+| `http-raw` | Raw HTTP request test |
+| `http-socket` | Socket-based HTTP test |
+| `http-rand` | Randomized HTTP flood |
+| `http-storm` | High-volume HTTP test |
+| `httpflood` | Multi-threaded HTTP flood |
+| `overflow` | Buffer overflow test |
+| `hyper` | Hyper HTTP stress test |
+| `http1` | HTTP/1.1 protocol test |
+| `tlsflood` | TLS handshake flood |
+| `cf-bypass` | Cloudflare bypass test |
+| `uambypass` | UAM bypass test |
+| `cf-pro` | Advanced CF bypass |
+| `https-spoof` | HTTPS spoof test |
+| `slow` | Slow HTTP attack |
+</details>
+
+<details>
+<summary><b>📋 Layer 4 Methods</b></summary>
+
+| Method | Usage |
+|--------|-------|
+| `udp` | `udp <ip> <port>` |
+| `tcp` | `tcp <ip> <port>` |
+| `std` | `stdv2 <ip> <port>` |
+| `flux` | `flux <ip> <port> <threads>` |
+| `slowloris` | `slowloris <ip> <port>` |
+| `god` | `god <ip> <port> <time>` |
+| `destroy` | `destroy <ip> <port> <time>` |
+| `udpbypass` | `udpbypass <ip> <port>` |
+| `nfo-killer` | NFO protection test |
+</details>
+
+<details>
+<summary><b>📋 Amplification Methods</b></summary>
+
+| Method | Description |
+|--------|-------------|
+| `ovh-amp` | OVH amplification test |
+| `ldap` | LDAP amplification |
+| `ntp` | NTP amplification |
+| `minecraft` | Minecraft server test |
+| `samp` | SA-MP server test |
+</details>
+
+<details>
+<summary><b>📋 Bypass Modules</b></summary>
+
+| Module | Target |
+|--------|--------|
+| Cloudflare | CF protection bypass |
+| OVH | OVH firewall bypass |
+| DDosGuard | DDosGuard bypass |
+| Sucuri | Sucuri WAF bypass |
+| StormWall | StormWall bypass |
+| PipeGuard | PipeGuard bypass |
+| BlazingFast | BlazingFast bypass |
+| PrivacyPass | Privacy Pass bypass |
+</details>
+
+## 📸 Screenshots
+
+![Main Menu](https://i.ibb.co/LNkqyPR/bandicam-2022-04-12-22-11-34-101.jpg)
+
+## ⚙️ Requirements
+
+- **OS:** Debian / Ubuntu (20.04+ recommended)
+- **Python:** 3.8+
+- **Node.js:** 16+
+- **Go:** 1.18+ (auto-installed if missing)
+- **Perl:** 5.0+
+- **Root:** Not required (auto-installs Go to `~/.local/go`)
+
+## ⚠️ Disclaimer
+
+> **For educational and authorized testing purposes only.**
+> 
+> Do not use against government (.gov/.gob), educational (.edu), or military (.mil) infrastructure.
+> The creator is not responsible for any misuse. Always obtain proper authorization before testing any network or server.
+
+---
+
+<div align="center">
+
+**Made by [Yousuf323215](https://github.com/Yousuf323215)**
+
+⭐ Star this repo if you find it useful!
+
+</div>
