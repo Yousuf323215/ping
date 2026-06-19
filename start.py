@@ -787,7 +787,7 @@ def install_go():
     tmp = '/tmp/go.tar.gz'
     print(f'\x1b[38;2;255;165;0m[ ! ] Go not found. Installing Go (non-root) to ~/.local/go ...')
     print(f'\x1b[38;2;255;165;0m[ ... ] Downloading {url}')
-    os.system(f'wget -q --show-progress -O {tmp} {url}')
+    os.system(f'curl -L -o {tmp} --progress-bar {url}')
     if not os.path.isfile(tmp) or os.path.getsize(tmp) < 1000000:
         print(f'\x1b[38;2;255;0;0m[ x ] Download failed. Install Go manually.')
         sys.exit(1)
